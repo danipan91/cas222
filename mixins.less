@@ -1,0 +1,21 @@
+.headerFontAttributes(@textFamily; @textColor; @textSize) {
+    font-family: @textFamily;
+    color: @textColor;
+    font-size: @textSize;
+    font-weight: bold; // this uses no arguments... not everything has to be dynamic!
+    text-transform: uppercase;
+}
+
+.paragraphFontAttributes(@textFamily; @textColor; @textSize) {
+    font-family: @textFamily;
+    color: @textColor;
+    font-size: @textSize;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.buttonAttributes(@textFamily; @textColor; textSize) {
+    font-family: @textFamily;
+    color: @textColor;
+    font-size: @textSize;
+}

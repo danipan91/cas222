@@ -1,0 +1,144 @@
+@import 'palette.less';
+@import 'mixins.less';
+@import 'responsive-menu.css';
+
+/* MOBILE STYLESHEET */
+
+@media screen and (max-width: 480px) {
+    body {
+        header {
+            
+            background-color: @color1;
+            padding: 1.5em;
+            
+            div {
+            .container {
+                    .section group {
+                        h1 {
+                            .headerFontAttributes('Play', sans-serif; @darkColor; 3em);
+                            padding: .1em;
+                            line-height: 1.15em;
+                            text-align: left;
+                            width: auto;
+                        }
+
+                        button {
+                            padding: 1em;
+                            width: auto;
+                        }
+                        nav {
+
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            background-color: @darkColor;
+            padding: 1.5em;
+            section {
+                h2 {
+                    .headerFontAttributes('Play', sans-serif; @lightColor; 2em);
+                    font-weight: 200;
+                    line-height: 1.5em;
+                }
+                p {
+                    .paragraphFontAttributes('Roboto', sans-serif; @lightColor; 1.25em);
+                    font-weight: 100;
+                    line-height: 1em;
+                    padding: .5em;
+                }
+                #aboutAce {
+                    
+                }
+                #registration {
+                    #regForm {
+                        background-color: @lightColor;
+                        padding: 5%;
+                    }
+                }
+                #courseDetails{
+                    
+                }
+                #aboutEvent {
+                    
+                }
+                #faqs {
+                    
+                }
+                #contact {
+                    
+                }
+            }
+        }
+        footer {
+            background-color: @lightColor;
+            padding: 1.5em;
+            p {
+                .paragraphFontAttributes('Roboto', sans-serif; @darkColor; 1em);
+                text-align: center;
+            }
+        }
+    }
+}
+        
+/* TABLET STYLESHEET */
+
+@media only screen and (min-width: 481px) {
+    body {
+        header {
+            background-color: @color1;
+            padding: 5%;
+            
+            .container {
+                h1 {
+
+                }
+                
+                button {
+                    
+                }
+                nav {
+                    
+                }
+            }
+        }
+        main {
+            
+        }
+        footer {
+
+        }
+    }
+}
+
+/* DESKTOP STYLESHEET */
+
+@media only screen and (min-width: 1025px) {
+    body {
+        header {
+            background-color: @color1;
+            padding: 5%;
+            
+            .container {
+                h1 {
+                    
+                }
+                
+                button {
+                    
+                }
+                nav {
+                    
+                }
+
+            }
+        }
+        main {
+
+        }
+        footer {
+
+        }
+    }
+}
