@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Play:700|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/grid.css">
     
+
+    <link rel="stylesheet" type="text/css" href="styles/responsive-menu.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/responsive-menu.js"></script>
 
@@ -41,10 +43,6 @@
             <p>
                 Sample text.
             </p>
-            
-            <section id="regForm">
-            
-            </section>
         </section>
         
         <section id="courseDetails" class=".span_12_of_12">
