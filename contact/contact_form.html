@@ -1,0 +1,32 @@
+<! -- Contact Form -->
+
+<section class="form">
+    <h3 class="formHeader">Contact Us</h3>
+    
+    <form id="contactForm" action="contact_form.php" method="POST">
+        <p>Full Name:<br>
+                <input type="text" name="fullName" placeholder="John Smith / Jane Smith">
+        </p>
+            
+        <p>Email:<br>
+            <input type="text" name="emailAddress" placeholder="johnsmith@somewhere.com">
+        </p>
+            
+        <p>Do you have a question or a comment?<br>
+            <input type="radio" name="question" value="question">Question<br>
+            <input type="radio" name="question" value="question">Comment
+        </p>
+            
+        <p>Are you an athlete, volunteer, or interested party?<br>
+            <input type="radio" name="athlete" value="athlete">Athlete<br>
+            <input type="radio" name="volunteer" value="volunteer">Volunteer<br>
+            <input type="radio" name="interestedParty" value="interestedParty">Interested Party
+        </p>
+        
+        <p>Message:<br>
+            <input type="text" name="message" placeholder="Message...">
+        </p>
+        
+        <input type="submit" value="Submit"><br>
+    </form>
+</section>
