@@ -1,0 +1,53 @@
+<! -- Registration Form -->
+
+<section class="form">
+    <h3 class="formHeader">REGISTER</h3>
+    
+    <form id="registrationForm" action="registration_form.php" method="POST">
+        <p>Full Name:<br>
+                <input type="text" name="fullName" placeholder="John Smith / Jane Smith">
+        </p>
+            
+        <p>Age:<br>
+            <input type="number" name="age" placeholder="30">
+        </p>
+            
+        <p>Email:<br>
+            <input type="text" name="emailAddress" placeholder="johnsmith@somewhere.com">
+        </p>
+            
+        <p>Phone Number:<br>
+            <input type="text" name="phoneNumber" placeholder="(503)-123-1234...">
+        </p>
+        
+        <p>Emergency Contact Info:<br>
+            <p>Full Name:</p>
+            <input type="text" name="emergencyContact" placeholder="Their full name..."><br>
+            <p>Phone Number:<br>
+            <input type="text" name="emergencyContactNumber" placeholder="(503)-123-1234...">
+        </p>
+        
+        <p>Which event would you like to attend? (select one)<br>
+            <input type="radio" name="eventDay" value="sunday">Sunday<br>
+            <input type="radio" name="eventDay" value="saturday">Saturday
+        </p>
+            
+        <p>Athlete or Volunteer: (select one)<br>
+        <p>
+            <input type="radio" name="activityType" value="athlete">Athlete<br>
+            <input type="radio" name="activityType" value="volunteer">Volunteer
+        </p>
+            
+        <p>Gender Identification: (select one)<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="nonBinary">Non-Binary
+        </p>
+        
+        <p>Please specify any special accommodations you may need:<br>
+            <input type="text" name="accommodations" placeholder=" List or describe...">
+        </p>
+        
+        <input type="submit" value="Submit"><br>
+    </form>
+</section>
